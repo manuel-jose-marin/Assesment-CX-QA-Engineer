@@ -2,15 +2,15 @@
 
 ## Objetivo
 Este proyecto implementa la prueba tecnica para el rol de CX Quality Assurance Engineer.
-La suite automatiza 7 casos sobre https://demoqa.com usando BDD con Gherkin y el patron Screenplay.
+La suite automatiza 7 casos sobre https://demoqa.com, usando BDD con Gherkin y el patron Screenplay.
 
 ## Prerequisitos
 - Node.js ^20 || ^22 || ^24
-- Java 17+ (requerido para Serenity BDD)
+- Java 17+ (requerido para Serenity BDD),
 - npm
 - Navegadores de Playwright
 
-## Instalacion
+## Instalación
 ```shell
 npm ci
 npx playwright install
@@ -21,7 +21,7 @@ npx playwright install
 # Ejecutar toda la suite
 npm test
 
-# Ejecutar un feature especifico
+# Ejecutar un feature especifico,
 npm test -- features/demoqa/01-home.feature
 
 # Ejecutar en modo headed
@@ -29,7 +29,7 @@ HEADLESS=false npm test
 ```
 
 ## Reporte Serenity BDD
-El reporte HTML se genera en `./target/site/serenity/index.html`.
+El reporte HTML se genera en `./target/site/serenity/index.html`,
 
 Opcionalmente, puedes servirlo en un servidor local:
 ```shell
@@ -73,16 +73,16 @@ test/
 ## Casos automatizados
 1. Navegar a la pagina principal y validar secciones clave.
 2. Elements - Text Box: ingresar nombre y correo y validar salida.
-3. Forms - Practice Form: completar datos y validar confirmacion.
+3. Forms - Practice Form: completar datos y validar confimacion.
 4. Alerts, Frame & Windows: alerta simple y nueva pestana.
 5. Widgets - Accordion: expandir paneles y validar contenido.
 6. Interactions - Droppable: drag & drop y validar resultado.
 7. Book Store: buscar termino y validar resultados.
 
 ## Decisiones de diseno
-- BDD con Gherkin como contrato legible para negocio.
+- BDD con Gherkin, como contrato legible para negocio.
 - Screenplay para evitar codigo espagueti, con Tasks y Questions reutilizables.
-- Selectores centralizados en UI Maps para facilitar cambios sin romper tests.
+- Selectores centralizados en UI Maps, para facilitar cambios sin romper tests.
 
 ## Notas
 - Los screenshots se generan automaticamente en fallas con Serenity/JS.
