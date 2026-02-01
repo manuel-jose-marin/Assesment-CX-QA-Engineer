@@ -14,7 +14,7 @@ const timeouts = {
         defaultTimeout:           Duration.ofSeconds(10),   // how long to wait for an element to show up
     },
     serenity: {
-        cueTimeout:               Duration.ofSeconds(5),    // how long to wait for Serenity/JS to complete any post-test activities, like saving screenshots and reports
+        cueTimeout:               Duration.ofSeconds(15),    // how long to wait for Serenity/JS to complete any post-test activities, like saving screenshots and reports
     }
 }
 
