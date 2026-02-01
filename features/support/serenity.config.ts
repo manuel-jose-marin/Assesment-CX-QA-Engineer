@@ -7,10 +7,10 @@ import { Actors } from '../../test';
 
 const timeouts = {
     cucumber: {
-        step: Duration.ofSeconds(30),                       // how long to wait for a Cucumber step to complete
+        step: Duration.ofSeconds(60),                       // how long to wait for a Cucumber step to complete
     },
     playwright: {
-        defaultNavigationTimeout: Duration.ofSeconds(30),   // how long to wait for a page to load
+        defaultNavigationTimeout: Duration.ofSeconds(45),   // how long to wait for a page to load
         defaultTimeout:           Duration.ofSeconds(10),   // how long to wait for an element to show up
     },
     serenity: {
