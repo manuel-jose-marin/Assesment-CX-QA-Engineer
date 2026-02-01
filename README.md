@@ -30,6 +30,7 @@ HEADLESS=false npm test
 
 ## Reporte Serenity BDD
 El reporte HTML se genera en `./target/site/serenity/index.html`,
+y tambien esta disponible en https://manuel-jose-marin.github.io/Assesment-CX-QA-Engineer/
 
 Opcionalmente, puedes servirlo en un servidor local:
 ```shell
