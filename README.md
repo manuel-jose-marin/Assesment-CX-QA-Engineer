@@ -6,7 +6,7 @@ La suite automatiza 7 casos sobre https://demoqa.com, usando BDD con Gherkin y e
 
 ## Prerequisitos
 - Node.js ^20 || ^22 || ^24
-- Java 17+ (requerido para Serenity BDD),
+- Java 17+ (requerido para Serenity BDD)
 - npm
 - Navegadores de Playwright
 
